@@ -1,0 +1,2 @@
+Este proyecto modela Fare (precio del pasaje) con Regresión Lineal usando un pipeline con imputación, escalado, One-Hot Encoding y SelectKBest. Reportamos MAE, RMSE y R², mostramos los coeficientes (qué variables suben/bajan el precio) y cerramos con supervivencia por cuartiles de Fare.
+Hallazgos: las variables asociadas a estatus (p. ej. clase y deck) aumentan el precio; además, los pasajeros con tarifas más altas muestran mayor tasa de supervivencia (Q4 vs Q1), lo que respalda la hipótesis “estatus → precio → supervivencia”.
